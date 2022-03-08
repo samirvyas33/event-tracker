@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition_order/>
+        <datasource_table>x_686626_sv_inve_0_inventory_control</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="Popular Items Form">68795e206f600110defa995d7553e302</embedded_screen>
+        <item_view/>
+        <name>Popular Items Main Item</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:47</sys_created_on>
+        <sys_id>24795e20a8600110c9e7d7d0a3744c08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Popular Items Main Item</sys_name>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>sys_sg_master_item_24795e20a8600110c9e7d7d0a3744c08</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:47</sys_updated_on>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="Popular Items View Config">2c795e200e6001108ce4c0d2990ee409</view_config>
+    </sys_sg_master_item>
+</record_update>

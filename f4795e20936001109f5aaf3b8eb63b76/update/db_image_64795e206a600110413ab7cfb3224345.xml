@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format/>
+        <height/>
+        <image>a8795e20886001100dc897ce57d8aa44</image>
+        <name>x_686626_sv_inve_0.Inventory-tracker-Mgr-Workspace-Login.svg</name>
+        <size_bytes>7638</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:44</sys_created_on>
+        <sys_id>64795e206a600110413ab7cfb3224345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_686626_sv_inve_0.Inventory-tracker-Mgr-Workspace-Login.svg</sys_name>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>db_image_64795e206a600110413ab7cfb3224345</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:44</sys_updated_on>
+        <thumbnail/>
+        <width/>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/svg+xml</content_type>
+        <file_name>image</file_name>
+        <hash>90816b386356e77f2d79eb6368dff42f39f6feb99721e68e8a3c9aebc6efa4e5</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>7638</size_bytes>
+        <size_compressed>2260</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:44</sys_created_on>
+        <sys_id>a8795e20886001100dc897ce57d8aa44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:44</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>64795e206a600110413ab7cfb3224345</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="a8795e20886001100dc897ce57d8aa44">a8795e20886001100dc897ce57d8aa44</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:44</sys_created_on>
+        <sys_id>e8795e207a600110d26dbee9d945e246</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>3000</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="a8795e20886001100dc897ce57d8aa44">a8795e20886001100dc897ce57d8aa44</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:44</sys_created_on>
+        <sys_id>20795e20a7600110a38f33c06158ab46</sys_id>
+    </sys_attachment_doc>
+</record_update>

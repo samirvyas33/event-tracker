@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ais_relevancy_solution_definition">
+    <ais_relevancy_solution_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <capability display_value="Search Relevancy">458c3b2ab72300100e173307fe11a923</capability>
+        <current_solution_version/>
+        <dataset_language>en</dataset_language>
+        <fields>signal_json</fields>
+        <filter table="ais_relevancy_training_staging">sys_created_onONLast 30 days@javascript:gs.beginningOfLast30Days()@javascript:gs.endOfLast30Days()^search_profile=0984ab0266f728106a93bca4098211fd^EQ<item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ON" or="false" value="Last 30 days@javascript:gs.beginningOfLast30Days()@javascript:gs.endOfLast30Days()"/>
+            <item endquery="false" field="search_profile" goto="false" newquery="false" operator="=" or="false" value="0984ab0266f728106a93bca4098211fd"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <profile display_value="Inventory Tracker Portal Search Profile">ac791e20336001102cad8c2e80aeb3fe</profile>
+        <request_source>ui</request_source>
+        <solution_label>ais_relevancy_0984ab0266f728106a93bca4098211fd</solution_label>
+        <solution_name>ml_x_snc_x_686626_sv_inve_0_global_ais_relevancy_0984ab0266f728106a93bca4098211fd</solution_name>
+        <solution_parameters/>
+        <solution_properties/>
+        <stopwords>a6282a25533333008c5bddeeff7b12c3</stopwords>
+        <sys_class_name>ais_relevancy_solution_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a0791e20626001104ec5cb224e69e9f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ais_relevancy_0984ab0266f728106a93bca4098211fd</sys_name>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>ais_relevancy_solution_definition_a0791e20626001104ec5cb224e69e9f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:06</sys_updated_on>
+        <table>ais_relevancy_training_staging</table>
+        <training_frequency>every_30_days</training_frequency>
+        <word_vector_corpus/>
+    </ais_relevancy_solution_definition>
+</record_update>

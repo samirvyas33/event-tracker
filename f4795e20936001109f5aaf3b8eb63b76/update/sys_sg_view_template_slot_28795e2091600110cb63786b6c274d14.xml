@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_template_slot">
+    <sys_sg_view_template_slot action="INSERT_OR_UPDATE">
+        <name>text_04</name>
+        <sys_class_name>sys_sg_view_template_slot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:26</sys_created_on>
+        <sys_id>28795e2091600110cb63786b6c274d14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_04</sys_name>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>sys_sg_view_template_slot_28795e2091600110cb63786b6c274d14</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:26</sys_updated_on>
+        <type>Text</type>
+        <view_template display_value="Popular Items">e0795e208f600110dfb109aa79cd7e14</view_template>
+    </sys_sg_view_template_slot>
+</record_update>

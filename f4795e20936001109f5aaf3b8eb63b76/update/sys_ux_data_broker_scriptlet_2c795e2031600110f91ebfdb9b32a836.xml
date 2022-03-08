@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_scriptlet">
+    <sys_ux_data_broker_scriptlet action="INSERT_OR_UPDATE">
+        <api_name>x_686626_sv_inve_0.Status Color Assign</api_name>
+        <description>Assigns color to items request status</description>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Status Color Assign</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+{&#13;
+"name":"graphqlData",&#13;
+"label":"GraphQL Data",&#13;
+"description":"",&#13;
+"readOnly":false,&#13;
+"fieldType":"object",&#13;
+"mandatory":true,&#13;
+"defaultValue":""&#13;
+}&#13;
+]</props>
+        <required_translations>[{"message":"GraphQL Data","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+    var colors = {
+        "Submitted": {
+            "highlightedHeaderLabel": "Submitted",
+            "highlightedHeaderBkgColor": "high",
+            "highlightedHeaderIcon": "presence-fill"
+        },
+        "Denied": {
+            "highlightedHeaderLabel": "Denied",
+            "highlightedHeaderBkgColor": "critical",
+            "highlightedHeaderIcon": "presence-fill"
+        },
+        "Approved": {
+            "highlightedHeaderLabel": "Approved",
+            "highlightedHeaderBkgColor": "positive",
+            "highlightedHeaderIcon": "presence-fill"
+        },
+        "Pending Re-order": {
+            "highlightedHeaderLabel": "Pending Re-order",
+            "highlightedHeaderBkgColor": "yellow",
+            "highlightedHeaderIcon":"presence-fill"
+        },
+        "Open Loaner": {
+            "highlightedHeaderLabel": "Open Loaner",
+            "highlightedHeaderBkgColor": "moderate",
+            "highlightedHeaderIcon": "presence-fill"
+        },
+        "Complete": {
+            "highlightedHeaderLabel": "Complete",
+            "highlightedHeaderBkgColor": "gray",
+            "highlightedHeaderIcon": "presence-fill"
+        },
+        "Canceled": {
+            "highlightedHeaderLabel": "Canceled",
+            "highlightedHeaderBkgColor": "gray",
+            "highlightedHeaderIcon": "presence-fill"
+        }
+    };
+	
+	if (input.graphqlData.items.length === 0) return input.graphqlData;
+
+    input
+        .graphqlData
+        .items
+        .forEach(function(item) {
+            for (var color in colors[item.propValues.model.request_status]) {
+                item.propValues[color] = colors[item.propValues.model.request_status][color];
+            }
+        });
+    return input.graphqlData;
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_scriptlet</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:44</sys_created_on>
+        <sys_id>2c795e2031600110f91ebfdb9b32a836</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Status Color Assign</sys_name>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>sys_ux_data_broker_scriptlet_2c795e2031600110f91ebfdb9b32a836</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:44</sys_updated_on>
+    </sys_ux_data_broker_scriptlet>
+    <sys_translated_text action="delete_multiple" query="documentkey=2c795e2031600110f91ebfdb9b32a836"/>
+</record_update>

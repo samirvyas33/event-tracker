@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <format/>
+        <height/>
+        <image>6c795e2056600110a29ef7920c33ab41</image>
+        <name>x_686626_sv_inve_0.inventory-update.svg</name>
+        <size_bytes>1028</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:25</sys_created_on>
+        <sys_id>28795e20f0600110d0615b8132ba3542</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_686626_sv_inve_0.inventory-update.svg</sys_name>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>db_image_28795e20f0600110d0615b8132ba3542</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:25</sys_updated_on>
+        <thumbnail/>
+        <width/>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/svg+xml</content_type>
+        <file_name>image</file_name>
+        <hash>54b6967eb3027b469aad0eaf26a4d972d7dbded7f710235fbf639ef3362d5b8f</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1028</size_bytes>
+        <size_compressed>527</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:25</sys_created_on>
+        <sys_id>6c795e2056600110a29ef7920c33ab41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:25</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>28795e20f0600110d0615b8132ba3542</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="6c795e2056600110a29ef7920c33ab41">6c795e2056600110a29ef7920c33ab41</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:25</sys_created_on>
+        <sys_id>24795e2078600110659d2a21e9c22143</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>bVPBbqMwEL33K0bupZUCxoSUpIJU2mi3Wmlz6vbSGwIHrLgYGRPY/Yj9hb3u5/UT1thxQqMA8sz4vRm/GSB5Gt45HKhsmahTRPwAAa1zUbC6TNHrz2/eEj2tb5L2UELPClWlaB42A4KKsrJSLjow2n8RQ4oCCGAe6gdNixIE+pi6TVGlVPOIcd/3fj/3hSxxGAQB1uWPlMeBs3p/jUhWqxU2KFrfgL4SxRSn69emyBRNsI0sUtBda10T7hhXVAIrUmRdj6AzbCl0I7iQ20xJNgDTsl9EJ3P6LLOmYjkC9auhKXo3uG4u4x1tbb/m9gNzwXkjCuNoQSYbcbiIVi4kpwS0TvCn0yfCsZV77Aqf20pK043tHUGrpNhrebWoT5F3fF96+LoKd+Doe7Ljmk0PtBZFMRnFseyLylTXet9zUZsELSFFneR3t25895fzK0HJrG53Qr6nyLhcK7tzc5mB59x7ZM54lqJrnLTb4Gu83ESf1Gm5v6kUFwdNVI7yWpwzmXPq5RXN9+O4OI68gV/JMplNpirQuVvyMCOwCSM/XEbam5NZ7MfkYXT0utHGYnCkzAnoFL1uDM/EjmJTXAWLGzqBN9iSeEZC+EEWzoSRNrEzetOSlga0KwksZs0S3uzMPv7++eeZL2X8aMZergwHlxevZrpxCoyTjD/e+j/EyopRBAQAAA==</data>
+        <length>692</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="6c795e2056600110a29ef7920c33ab41">6c795e2056600110a29ef7920c33ab41</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:25</sys_created_on>
+        <sys_id>ec795e208c60011070b970ef2845c843</sys_id>
+    </sys_attachment_doc>
+</record_update>

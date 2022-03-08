@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Request Item">64795e20e7600110192f47b6117dda32</macroponent>
+        <name>Request this item</name>
+        <required_translations>[ {
+  "message" : "Please enter a valid requested count",
+  "comment" : ""
+}, {
+  "message" : "Error : something went wrong",
+  "comment" : ""
+}, {
+  "message" : "Stock available is less than count",
+  "comment" : ""
+} ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({ api, helpers }) {
+    try {
+        let requestDate = new Date(api.data.req_form.nowRecordFormBlob.fields.request_date.value);
+        let returnDate = api.data.req_form.nowRecordFormBlob.fields.return_date.value;
+        let maxLoanDuration = parseInt(api.data.look_up_record_1.result.loan_duration.value);
+        let in_stock = parseInt(api.data.look_up_record_1.result.in_stock.value);
+        let count = parseInt(api.data.req_form.nowRecordFormBlob.fields.count.value);
+        let isNewRecord = api.data.req_form.nowRecordFormBlob.isNewRecord;
+        let reqCount = api.data.req_form.nowRecordFormBlob.fields.count.value;
+
+        if(reqCount <= 0) {
+            helpers.translate("Please enter a valid requested count").then(value => {
+                api.data.req_form.showFieldMessage({
+                        fieldName : "count",
+                        message : value,
+                        type : "error"
+                    });
+            });
+            return;
+        }
+
+        let maxDate;
+        if(maxLoanDuration) {
+                maxDate = new Date(requestDate);
+                maxDate.setDate(requestDate.getDate() + maxLoanDuration);   
+        }
+
+        if(!returnDate && maxDate) {
+            returnDate = maxDate;
+            api.data.req_form.setValue({
+                fieldName: 'return_date',
+                value: returnDate.toLocaleDateString().split("/").reverse().join("-") + " " + returnDate.toLocaleTimeString()
+            });
+        }
+        else if(returnDate && typeof returnDate === "string")
+            returnDate = new Date(returnDate);
+
+        if(in_stock && in_stock < count) {
+            helpers.translate("Stock available is less than count").then(value => {
+                api.data.req_form.showFieldMessage({
+                        fieldName : "count",
+                        message : value,
+                        type : "error"
+                    });
+            });
+            return;
+        }/* else if (requestDate.toJSON().substring(0,10) < new Date().toJSON().substring(0,10)) {
+            helpers.translate("Date required can't be in past").then(value => {
+                api.data.req_form.showFieldMessage({
+                        fieldName : "request_date",
+                        message : value,
+                        type : "error"
+                    });
+            });
+            return;
+        }
+        else if(returnDate && maxDate && maxDate.getTime() !== returnDate.getTime()) {
+            if(requestDate.getTime() > returnDate.getTime()) {
+                helpers.translate('Return date should be after required date').then((value) => {
+                    api.data.req_form.showFieldMessage({
+                        fieldName : "return_date",
+                        message : value,
+                        type : "error"
+                    });
+                });
+                return;
+            } else if(maxDate.getTime() < returnDate.getTime()) {
+                helpers.translate('Return date should be less than or equal to max loan duration').then((value) => {
+                    api.data.req_form.showFieldMessage({
+                        fieldName : "return_date",
+                        message : value,
+                        type : "error"
+                    });
+                });
+                return;
+            }
+        }*/
+        if(isNewRecord) {
+            api.data.req_form.save();
+            helpers.navigate.to('confirmation', {
+                sysId: api.data.req_form.nowRecordFormBlob.sysId,
+                action: 'created'
+            });
+        } else {
+            let status = api.data.req_form.nowRecordFormBlob.fields.request_status.value;
+            if(["denied","approved","pending_re_order"].indexOf(status) >= 0) {
+                    api.data.req_form.setValue({
+                    fieldName: 'request_status',
+                    value: "submitted"
+                });
+            }
+            api.data.req_form.save();
+            helpers.navigate.to('confirmation', {
+                sysId: api.data.req_form.nowRecordFormBlob.sysId,
+                action: 'updated'
+            });
+        }  
+    } catch (ex) {
+        helpers.translate("Error : something went wrong").then(value => {
+            api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+                items: [{
+                    status: "critical",
+                    icon: "exclamation-triangle-outline",
+                    content: value,
+                    action: {
+                        type: "dismiss"
+                    }
+                }]
+            });
+        });
+        return;
+    }
+
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:05</sys_created_on>
+        <sys_id>e0795e207560011092b4e07b54635f34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request this item</sys_name>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>sys_ux_client_script_e0795e207560011092b4e07b54635f34</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:05</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>

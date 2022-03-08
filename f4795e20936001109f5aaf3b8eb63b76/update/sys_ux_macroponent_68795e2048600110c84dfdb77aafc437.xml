@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {&#13;
+  "elementId" : "stylized_text_1",&#13;
+  "elementLabel" : "Stylized text 1",&#13;
+  "propertyValues" : {&#13;
+    "text" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : "You have logged out successfully."&#13;
+    },&#13;
+    "tag" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : "h3"&#13;
+    },&#13;
+    "css" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : "* { }"&#13;
+    }&#13;
+  },&#13;
+  "eventMappings" : [ ],&#13;
+  "slot" : "Column 2",&#13;
+  "definition" : {&#13;
+    "id" : "4335ba6dca80378f7ba7a67cd6667bec",&#13;
+    "type" : "MACROPONENT"&#13;
+  },&#13;
+  "overrides" : null,&#13;
+  "isHidden" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : ""&#13;
+  },&#13;
+  "isNonDestructive" : false,&#13;
+  "styles" : { }&#13;
+}, {&#13;
+  "elementId" : "button_1",&#13;
+  "elementLabel" : "Button 1",&#13;
+  "propertyValues" : {&#13;
+    "variant" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : "primary"&#13;
+    },&#13;
+    "size" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : "md"&#13;
+    },&#13;
+    "label" : {&#13;
+      "type" : "TRANSLATION_LITERAL",&#13;
+      "value" : {&#13;
+        "message" : "Login again",&#13;
+        "comment" : ""&#13;
+      }&#13;
+    },&#13;
+    "icon" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : null&#13;
+    },&#13;
+    "disabled" : {&#13;
+      "type" : "JSON_LITERAL",&#13;
+      "value" : false&#13;
+    },&#13;
+    "tooltipContent" : {&#13;
+      "type" : "TRANSLATION_LITERAL",&#13;
+      "value" : {&#13;
+        "message" : "Enter a label",&#13;
+        "comment" : ""&#13;
+      }&#13;
+    },&#13;
+    "configAria" : {&#13;
+      "type" : "MAP_CONTAINER",&#13;
+      "container" : { }&#13;
+    }&#13;
+  },&#13;
+  "eventMappings" : [ {&#13;
+    "eventMappingId" : "ckhggauhhaataaaabbwddghhkvqbggztrk",&#13;
+    "isConfiguration" : false,&#13;
+    "offRowStorageId" : null,&#13;
+    "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",&#13;
+    "sourceEventDefinition" : {&#13;
+      "apiName" : "sn_button.NOW_BUTTON#CLICKED",&#13;
+      "id" : null,&#13;
+      "type" : "UXEVENT"&#13;
+    },&#13;
+    "sourceEventSysId" : null,&#13;
+    "targets" : [ {&#13;
+      "broker" : null,&#13;
+      "clientScript" : null,&#13;
+      "declarativeAction" : null,&#13;
+      "event" : {&#13;
+        "apiName" : "x_686626_sv_inve_0.NAV_ITEM_SELECTED_RELAY_68795e2048600110c84dfdb77aafc437",&#13;
+        "payload" : {&#13;
+          "type" : "JSON_LITERAL",&#13;
+          "value" : {&#13;
+            "route" : "login",&#13;
+            "fields" : null,&#13;
+            "params" : null,&#13;
+            "redirect" : null,&#13;
+            "passiveNavigation" : null,&#13;
+            "title" : null,&#13;
+            "multiInstField" : null,&#13;
+            "targetRoute" : null,&#13;
+            "external" : null&#13;
+          }&#13;
+        },&#13;
+        "sysId" : "28795e20846001100e43b2c68a59cc37"&#13;
+      },&#13;
+      "operation" : null,&#13;
+      "targetId" : "ckhggauhhaataaaabbxddghhkbbaoevyxdd",&#13;
+      "type" : "EVENT"&#13;
+    } ]&#13;
+  } ],&#13;
+  "slot" : "Column 2",&#13;
+  "definition" : {&#13;
+    "id" : "d37ce8abca89d02905fed903c8e34d8e",&#13;
+    "type" : "MACROPONENT"&#13;
+  },&#13;
+  "overrides" : null,&#13;
+  "isHidden" : {&#13;
+    "type" : "JSON_LITERAL",&#13;
+    "value" : ""&#13;
+  },&#13;
+  "isNonDestructive" : false,&#13;
+  "styles" : { }&#13;
+} ]</composition>
+        <da_relay_models/>
+        <data>[ ]</data>
+        <dispatched_events>28795e20846001100e43b2c68a59cc37</dispatched_events>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{&#13;
+  "default" : {&#13;
+    "children" : null,&#13;
+    "items" : [{"slotName":"Column 1","rules":{"grid-area":"column1"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 2","rules":{"grid-area":"column2"},"styles":{"display":"flex","flex-direction":"column","justify-content":"center","align-items":"center"}},{"slotName":"Column 3","rules":{"grid-area":"column3"},"styles":{"display":"flex","flex-direction":"column"}}],&#13;
+    "root" : null,&#13;
+    "rules" : {"grid-template-rows":"minmax(400px,auto)","grid-template-columns":"1fr 1fr 1fr","grid-template-areas":"\"column1 column2 column3\"","grid-gap":"1rem","height":"100%"},&#13;
+    "styles" : null,&#13;
+    "templateId" : "21e8380553831010e6bcddeeff7b1272",&#13;
+    "type" : "grid"&#13;
+  }&#13;
+}</layout>
+        <macroponent_dependencies/>
+        <name>Logout</name>
+        <props>[ ]</props>
+        <required_translations>[{"message":"Login again","comment":""},{"message":"Enter a label","comment":""}]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:23</sys_created_on>
+        <sys_id>68795e2048600110c84dfdb77aafc437</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Logout</sys_name>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>sys_ux_macroponent_68795e2048600110c84dfdb77aafc437</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:23</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

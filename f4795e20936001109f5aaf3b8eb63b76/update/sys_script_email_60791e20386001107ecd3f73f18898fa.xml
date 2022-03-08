@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>x_686626_sv_inve_0.invtrac_user_avtar</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+	var table = current.getTableName();
+	var avtar;
+	
+	switch(table) {
+		case "x_686626_sv_inve_0_inventory_request" : 
+			avtar = getUserAvtar(current.requestor);
+			break;
+			
+		case "x_686626_sv_inve_0_inventory_control" : 
+			var stockLocation = current.stock_location.getRefRecord();
+			if(stockLocation.isValidRecord()) {
+				avtar =  getUserAvtar(stockLocation.inventory_manager);
+			}
+			break;
+	}
+	if(avtar) {
+		var user_avtar = '<div class="profile-picture"><img  src="' + avtar + '.iix"></div>';
+		template.print(user_avtar);
+	}
+	
+function getUserAvtar(user) {
+	var gr = new GlideRecord("sys_user");
+	gr.get(user);
+	
+	return gr.avatar ? gr.avatar : "";
+}
+          
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:24</sys_created_on>
+        <sys_id>60791e20386001107ecd3f73f18898fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_686626_sv_inve_0.invtrac_user_avtar</sys_name>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>sys_script_email_60791e20386001107ecd3f73f18898fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:24</sys_updated_on>
+    </sys_script_email>
+</record_update>

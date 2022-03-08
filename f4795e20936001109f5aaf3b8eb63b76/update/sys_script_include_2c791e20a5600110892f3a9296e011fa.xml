@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_686626_sv_inve_0.request_department</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Given a user, returns the users department.</description>
+        <name>request_department</name>
+        <script><![CDATA[var request_department = Class.create();
+request_department.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    requestor_info: function() {
+        var result = {};
+		var gr = new GlideRecord('sys_user');
+		if(gr.get(this.getParameter('sysparm_userSelect'))){
+			result.department = gr.getValue('department');
+		}
+		return JSON.stringify(result);
+    },
+    type: 'request_department'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:18</sys_created_on>
+        <sys_id>2c791e20a5600110892f3a9296e011fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>request_department</sys_name>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>sys_script_include_2c791e20a5600110892f3a9296e011fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:18</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_header">
+    <sys_sg_applet_launcher_header action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_sg_applet_launcher_header</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:22</sys_created_on>
+        <sys_id>64791e20bc60011088f8c9f5bbdc3cff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hello {{baeaee347330330018eea18d4ef6a7a8}}</sys_name>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_header_64791e20bc60011088f8c9f5bbdc3cff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:22</sys_updated_on>
+        <text>Hello {{baeaee347330330018eea18d4ef6a7a8}}</text>
+        <variables>baeaee347330330018eea18d4ef6a7a8</variables>
+    </sys_sg_applet_launcher_header>
+</record_update>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template">
+    <sys_ux_composite_data_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>Item card</name>
+        <sys_class_name>sys_ux_composite_data_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:46</sys_created_on>
+        <sys_id>ec795e207f600110ab091ac123ca9335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Item card</sys_name>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_ec795e207f600110ab091ac123ca9335</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:46</sys_updated_on>
+        <template>{&#13;
+    "component":"now-card-evam-record",&#13;
+    "staticValues":{&#13;
+        "imageType": {"translatable": false, "key":"image"},&#13;
+        "highlightedHeaderIcon": {&#13;
+			"translatable": false,&#13;
+			"key": "presence-fill"&#13;
+		},&#13;
+        "highlightedHeaderBkgColor": {"translatable": false, "key":"low"},&#13;
+        "detailLabelOne": {"translatable": true, "key": "Available"},&#13;
+        "detailLabelTwo": {"translatable": true, "key": "Location"},&#13;
+        "detailLabelThree": {"translatable": true, "key": "Inventory type"},&#13;
+        "detailLabelFour": {"translatable": true, "key": "Max loan duration"}&#13;
+    },&#13;
+    "mappings":{&#13;
+        "titleLabel":"name",&#13;
+        "highlightedHeaderLabel":"type",&#13;
+        "imageURL":"image",&#13;
+        "detailValueOne":"in_stock",&#13;
+        "detailValueTwo":"stock_location.name",&#13;
+        "detailValueThree":"type",&#13;
+        "detailValueFour":"loan_duration"&#13;
+    },&#13;
+    "actionMappings" : {&#13;
+    "clickAction":"navigation"&#13;
+}&#13;
+}</template>
+    </sys_ux_composite_data_template>
+</record_update>

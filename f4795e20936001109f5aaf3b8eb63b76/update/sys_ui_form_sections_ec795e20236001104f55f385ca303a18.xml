@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="ec795e20236001104f55f385ca303a18" sys_domain="global" table="x_686626_sv_inve_0_inventory_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-17 16:42:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>20795e203b6001105474b52fb014e119</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_686626_sv_inve_0_inventory_request" name="x_686626_sv_inve_0_inventory_request" sys_domain="global" view="169009876d2620100acb70b35343302a">ec795e20236001104f55f385ca303a18</sys_ui_form>
+            <sys_ui_section caption="Inventory request" display_value="Inventory request" name="x_686626_sv_inve_0_inventory_request" sys_domain="global" view="169009876d2620100acb70b35343302a">a0795e201b600110e0fd8652a9641419</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-17 16:42:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-17 16:42:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e0795e20f960011094895860e4701419</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_686626_sv_inve_0_inventory_request" name="x_686626_sv_inve_0_inventory_request" sys_domain="global" view="169009876d2620100acb70b35343302a">ec795e20236001104f55f385ca303a18</sys_ui_form>
+            <sys_ui_section caption="Manage request" display_value="Manage request" name="x_686626_sv_inve_0_inventory_request" sys_domain="global" view="169009876d2620100acb70b35343302a">24795e202b6001100b8ef940bd544e19</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-17 16:42:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_686626_sv_inve_0_inventory_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-17 16:42:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ec795e20236001104f55f385ca303a18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_686626_sv_inve_0_inventory_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+            <sys_update_name>sys_ui_form_sections_ec795e20236001104f55f385ca303a18</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-17 16:42:38</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace" name="workspace">169009876d2620100acb70b35343302a</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

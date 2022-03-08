@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme">
+    <sys_ux_theme action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Inventory Tracker Workspace Theme</name>
+        <parent display_value="Inventory Tracker Portal Theme">a4795e20736001100c0a2fd43ca77c5c</parent>
+        <sys_class_name>sys_ux_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>64795e20e3600110d5f6e6d09327755a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Inventory Tracker Workspace Theme</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>sys_ux_theme_64795e20e3600110d5f6e6d09327755a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:05</sys_updated_on>
+        <theme>{&#13;
+    "--now-canvas-header-container-ws--background-color": "11, 83, 110",&#13;
+    "--now-canvas-toolbar--background-color": "205, 243, 247",&#13;
+    "--now-canvas-toolbar-button--background-color--focus": "247, 116, 88",&#13;
+    "--now-canvas-toolbar-button--background-color--hover": "247, 116, 88",&#13;
+    "--now-canvas-toolbar-button--color": "0,0,0",&#13;
+    "--now-canvas-toolbar-button--background-color--active": "247, 116, 88",&#13;
+    "--now-display-type--font-family": "Roboto",&#13;
+    "--now-heading--header-primary--font-family": "Roboto",&#13;
+    "--now-heading--header-secondary--font-family": "Roboto",&#13;
+    "--now-heading--header-tertiary--font-family": "Roboto",&#13;
+    "--now-card-header_heading--primary--font-family": "Roboto",&#13;
+    "--now-heading--header-primary--font-weight": "Regular",&#13;
+    "--now-heading--header-secondary--font-weight": "Regular",&#13;
+    "--now-tabs--background-color--selected": "transparent",&#13;
+    "--now-tabs--background-color--hover":"transparent"&#13;
+}&#13;
+</theme>
+    </sys_ux_theme>
+</record_update>

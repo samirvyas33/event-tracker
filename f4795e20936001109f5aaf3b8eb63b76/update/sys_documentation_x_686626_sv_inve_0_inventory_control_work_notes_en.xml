@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="work_notes" label="Work notes" language="en" table="x_686626_sv_inve_0_inventory_control">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <help/>
+            <hint/>
+            <label>Work notes</label>
+            <language>en</language>
+            <name>x_686626_sv_inve_0_inventory_control</name>
+            <plural>Work notes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_id>85795e201b6001105e1e8515ec4bcbe7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Work notes</sys_name>
+            <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+            <sys_update_name>sys_documentation_x_686626_sv_inve_0_inventory_control_work_notes_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-17 16:42:02</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

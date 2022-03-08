@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Inventory Control" max_length="40" name="x_686626_sv_inve_0_inventory_control" sizeclass="0" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Category" max_length="40" name="category" type="string"/>
+        <element label="Description" max_length="400" name="description" type="string"/>
+        <element attributes="pdf_cell_type=image" label="Item picture" max_length="40" name="image" type="user_image"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {    var util = new x_686626_sv_inve_0.InventoryTrackerUtil();    return util.getInventoryStatus(current);     })(current);" choice="1" label="Inventory status" mandatory="true" max_length="40" name="inventory_status" read_only="true" type="string" virtual="true">
+            <choice>
+                <element inactive_on_update="false" label="Ok" sequence="1" value="ok"/>
+                <element inactive_on_update="false" label="Reorder" sequence="2" value="reorder"/>
+                <element inactive_on_update="false" label="On-Loan" sequence="3" value="on_loan"/>
+                <element inactive_on_update="false" label="Discontinued" sequence="4" value="discontinued"/>
+            </choice>
+        </element>
+        <element label="Stock quantity" max_length="40" name="in_stock" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="In stock details" max_length="40" name="in_stock_details" type="string"/>
+        <element attributes="omit_sys_original=true" label="Cost per item" max_length="20" name="item_cost" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Item number" max_length="40" name="item_number" type="string"/>
+        <element label="Item photo" max_length="40" name="item_photo" type="file_attachment"/>
+        <element label="Max loan duration" max_length="40" name="loan_duration" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Manufacturer" max_length="40" name="manufacturer" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Item name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="Number on loan" max_length="40" name="on_loan" type="integer"/>
+        <element label="Reorder level" max_length="40" name="reorder_level" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Reorder status" max_length="40" name="reorder_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="On Order" sequence="1" value="on_order"/>
+                <element inactive_on_update="false" label="Back Ordered" sequence="2" value="back_ordered"/>
+                <element inactive_on_update="false" label="Arrived" sequence="3" value="arrived"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Stock location" max_length="32" name="stock_location" reference="x_686626_sv_inve_0_stock_location" reference_qual="javascript:new InventoryTrackerUtil().getStockLocations();" type="reference" use_reference_qualifier="advanced"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="consumable" label="Inventory type" mandatory="true" max_length="40" name="type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Consumable" sequence="1" value="consumable"/>
+                <element inactive_on_update="false" label="Loaner" sequence="2" value="loaner"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" calculation="(function calculatedFieldValue(current) {   var currency_code = current.item_cost.getCurrencyCode();var total = parseInt(current.getValue('item_cost')) * parseInt(current.getValue('in_stock'));  return (currency_code+&quot;;&quot;+total);    })(current);" label="Inventory value" max_length="20" name="value" read_only="true" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Work notes" max_length="40" name="work_notes" type="journal_input"/>
+        <index name="index">
+            <element name="stock_location"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

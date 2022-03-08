@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>name,active,address,department,description,inventory_manager</field_list>
+        <name>Stock Location</name>
+        <order>300</order>
+        <predicate_bundle display_value="Inventory Tracker Portal">6c795e2068600110e5c38831ece64c35</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:08</sys_created_on>
+        <sys_id>a4795e20fe6001106e7b0af14b43f536</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Stock Location</sys_name>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_a4795e20fe6001106e7b0af14b43f536</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:08</sys_updated_on>
+        <table>x_686626_sv_inve_0_stock_location</table>
+        <ux_template display_value="Stock Location">60795e20846001102a9ec16fffb44636</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>

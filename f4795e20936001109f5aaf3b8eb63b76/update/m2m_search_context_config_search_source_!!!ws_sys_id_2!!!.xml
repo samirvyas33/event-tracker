@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>200</order>
+        <search_context_config display_value="x_686626_sv_inve_0 - Inventory tracker workspace s">a0791e20596001102f5748f91ba517dd</search_context_config>
+        <source display_value="Inventory Request">20791e2034600110b5aed8a14f90e1fb</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-06-21 08:45:03</sys_created_on>
+        <sys_id>!!!ws_sys_id_2!!!</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SV Team Contacts" source="x_686626_sv_team_0">1586126ce4200110533c9e1011e407f3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_!!!ws_sys_id_2!!!</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-06-21 08:45:03</sys_updated_on>
+    </m2m_search_context_config_search_source>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:03</sys_created_on>
+        <sys_id>20795e200a6001108c36b751102f5e18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_ui_action display_value="Update">a0795e20e2600110d4bcf652e44c0f17</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_20795e200a6001108c36b751102f5e18</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:03</sys_updated_on>
+        <sys_user_role display_value="x_686626_sv_inve_0.admin" name="x_686626_sv_inve_0.admin">60795e20b86001108a868032771b1a5d</sys_user_role>
+    </sys_ui_action_role>
+</record_update>

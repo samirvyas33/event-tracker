@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_suggestion_reader_group">
+    <sys_suggestion_reader_group action="INSERT_OR_UPDATE">
+        <click_in_mode>true</click_in_mode>
+        <context_config_id display_value="x_686626_sv_inve_0 - Inventory tracker workspace s">a0791e20596001102f5748f91ba517dd</context_config_id>
+        <limit>5</limit>
+        <order>100</order>
+        <section_header>Recent searches</section_header>
+        <suggestion_type>Recent Search Reader Group for Inventory tracker workspace search</suggestion_type>
+        <sys_class_name>sys_suggestion_reader_group</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-06-21 08:44:32</sys_created_on>
+        <sys_id>a8795e2067600110cf3abe1f075a6c6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recent Search Reader Group for Inventory tracker workspace search</sys_name>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy>null</sys_policy>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>sys_suggestion_reader_group_a8795e2067600110cf3abe1f075a6c6b</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-06-21 08:44:32</sys_updated_on>
+    </sys_suggestion_reader_group>
+</record_update>

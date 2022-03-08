@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_input">
+    <sys_sg_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <autofill_variable display_value="stock_location">20795e2074600110fa593e136420ed06</autofill_variable>
+        <category/>
+        <description/>
+        <label>Stock location</label>
+        <mandatory>false</mandatory>
+        <name>stock_location</name>
+        <order>10</order>
+        <page/>
+        <parameter_screen display_value="Request item">a8795e2015600110d99714d0f5595004</parameter_screen>
+        <parameter_section/>
+        <placeholder/>
+        <readonly>true</readonly>
+        <sys_class_name>sys_sg_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:47</sys_created_on>
+        <sys_id>ec795e202e6001105a480725e9ee2c05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Stock location</sys_name>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>sys_sg_input_ec795e202e6001105a480725e9ee2c05</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:47</sys_updated_on>
+        <type display_value="Reference">770c605517021010f2b43b9fadb95900</type>
+    </sys_sg_input>
+</record_update>

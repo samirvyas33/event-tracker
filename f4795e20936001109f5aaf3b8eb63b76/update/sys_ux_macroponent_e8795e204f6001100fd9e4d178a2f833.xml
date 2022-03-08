@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "stylized_text_1",
+  "elementLabel" : "Stylized text 1",
+  "propertyValues" : {
+    "text" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "message" : "Manage and request items available to borrow.",
+        "comment" : ""
+      }
+    },
+    "tag" : {
+      "type" : "JSON_LITERAL",
+      "value" : "p"
+    },
+    "css" : {
+      "type" : "JSON_LITERAL",
+      "value" : "* {\n    margin-bottom: 0;\n }"
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "font-size" : "20px",
+    "line-height" : "24px"
+  }
+}, {
+  "elementId" : "stylized_text_2",
+  "elementLabel" : "Stylized text 2",
+  "propertyValues" : {
+    "text" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "message" : "Company catalog",
+        "comment" : ""
+      }
+    },
+    "tag" : {
+      "type" : "JSON_LITERAL",
+      "value" : "h1"
+    },
+    "css" : {
+      "type" : "JSON_LITERAL",
+      "value" : "* {\n    font-size: 72px;\n    margin-top: 8px;\n    margin-bottom: 32px;\n }"
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "font-size" : "72px",
+    "margin" : "0",
+    "font-family" : "cabin"
+  }
+}, {
+  "elementId" : "login_1",
+  "elementLabel" : "Login 1",
+  "propertyValues" : {
+    "logoUrl" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "heading" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "message" : "Log in to continue",
+        "comment" : ""
+      }
+    },
+    "ssoLabel" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "message" : "null",
+        "comment" : ""
+      }
+    },
+    "destinationUrl" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "chrome_state_for_app_shell_ui_1", "loginRedirectUrl" ]
+      }
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "b149d22fc772967dcde6c861d5e67397",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ {
+  "definition" : {
+    "id" : "7fc30640532110105a20ddeeff7b1276",
+    "type" : "CLIENT_STATE"
+  },
+  "elementId" : "chrome_state_for_app_shell_ui_1",
+  "elementLabel" : "Chrome State For App Shell UI 1",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "toolbarButtonsConfig" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "preferenceNames" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "processedUserPrefs" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "notificationConfiguration" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+} ]</data>
+        <dispatched_events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{
+  "MACROPONENT_READY" : [ {
+    "broker" : null,
+    "clientScript" : {
+      "sysId" : "a8795e20446001107cfa2f8394a7e833"
+    },
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : null,
+    "targetId" : "ckkhhbbccnxaaaaaabbeeddhiijjddfftopphhh",
+    "type" : "CLIENT_SCRIPT"
+  } ]
+}</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column","justify-content":"center","align-items":"center","background-color":"rgb(var(--now-color--inventory--background-color))","background-image":"url(x_686626_sv_inve_0.'./x_686626_sv_inve_0.Inventory-tracker-Mgr-Workspace-Login.svg')","background-position-x":"center","background-repeat":"no-repeat","background-position-y":"bottom"}}],
+    "root" : null,
+    "rules" : {"grid-template-rows":"minmax(400px,auto)","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
+    "styles" : null,
+    "templateId" : "28bde4cd53431010e6bcddeeff7b12cc",
+    "type" : "grid"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Login</name>
+        <props>[ {
+  "name" : "logout",
+  "label" : "Logout",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : null,
+  "readOnly" : true,
+  "selectable" : false
+} ]</props>
+        <required_translations>[{"message":"null","comment":""},{"message":"Company catalog","comment":""},{"message":"Log in to continue","comment":""},{"message":"Manage and request items available to borrow.","comment":""}]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:26</sys_created_on>
+        <sys_id>e8795e204f6001100fd9e4d178a2f833</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Login</sys_name>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>sys_ux_macroponent_e8795e204f6001100fd9e4d178a2f833</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:26</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>
