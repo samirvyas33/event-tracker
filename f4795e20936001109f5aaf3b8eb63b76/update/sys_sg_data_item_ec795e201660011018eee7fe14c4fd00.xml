@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>Browse Catalog Data Item</name>
+        <query_condition table="x_686626_sv_inve_0_inventory_control">^ORDERBYDESCsys_created_on<item endquery="false" field="" goto="false" newquery="false" operator="ORDERBYDESC" or="false" value="sys_created_on"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:21</sys_created_on>
+        <sys_id>ec795e201660011018eee7fe14c4fd00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Browse Catalog Data Item</sys_name>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>sys_sg_data_item_ec795e201660011018eee7fe14c4fd00</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:21</sys_updated_on>
+        <table>x_686626_sv_inve_0_inventory_control</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=ec795e201660011018eee7fe14c4fd00"/>
+</record_update>

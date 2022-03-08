@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>number,request_date,request_status,return_date,stock_location.name,requested_item.name,requested_item.type,requested_item.category,requested_item.image</field_list>
+        <name>Requests template predicate</name>
+        <order/>
+        <predicate_bundle display_value="Inventory Request Bundle">e4795e20a260011043f989e7898b9f35</predicate_bundle>
+        <required_roles>x_686626_sv_inve_0.employee</required_roles>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:43</sys_created_on>
+        <sys_id>28795e20af600110483380e976804436</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requests template predicate</sys_name>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_28795e20af600110483380e976804436</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:43</sys_updated_on>
+        <table>x_686626_sv_inve_0_inventory_request</table>
+        <ux_template display_value="Request card">ac795e2057600110e8bb360efbcd7f35</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>

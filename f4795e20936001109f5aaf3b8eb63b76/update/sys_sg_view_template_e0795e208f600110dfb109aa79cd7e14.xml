@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_template">
+    <sys_sg_view_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>To show popular items</description>
+        <name>Popular Items</name>
+        <preview_image/>
+        <root_view_attrs_json/>
+        <sys_class_name>sys_sg_view_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:13</sys_created_on>
+        <sys_id>e0795e208f600110dfb109aa79cd7e14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Popular Items</sys_name>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>sys_sg_view_template_e0795e208f600110dfb109aa79cd7e14</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:13</sys_updated_on>
+        <template_json>{"Type":"ViewGroup","Margin":{"Top":15,"Bottom":17},"Orientation":"Vertical","Alignment":"Stretch","Distribution":"Auto","Id":"Root","Children":[{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Left","Distribution":"Auto","Id":"viewgroup_12","CornerRadius":3,"Width":"auto","Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":10},"MaxLines":1,"CellId":"text_07","Id":"text_07","TextAlignment":"Left","Margin":{"Top":3,"Bottom":3,"Left":5,"Right":3}},{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_08","Id":"text_08","TextAlignment":"Left","Margin":{"Top":3,"Right":5,"Bottom":3}}]},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Id":"viewgroup_04","Children":[{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Left","Distribution":"Auto","Id":"viewgroup_10","Height":120,"Children":[{"Type":"Image","Scaling":"fit","CellId":"image_02","Id":"image_02","Height":100,"Width":80,"Margin":{"Right":20}}]},{"Type":"ViewGroup","Orientation":"Vertical","Alignment":"Stretch","Distribution":"Auto","Id":"viewgroup_05","Margin":{"Top":10},"Children":[{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Id":"viewgroup_08","Margin":{"Bottom":0},"Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":18},"MaxLines":2,"CellId":"text_02","Id":"text_02","Margin":{},"TextAlignment":"Left"}]},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Left","Distribution":"Auto","Id":"viewgroup_09","Margin":{"Top":4},"Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"TextAlignment":"Left","CellId":"text_03","Id":"text_03","Margin":{"Right":5},"Width":54},{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"TextAlignment":"Left","CellId":"text_04","Id":"text_04"}]}]}]}]}</template_json>
+    </sys_sg_view_template>
+    <sys_translated_text action="delete_multiple" query="documentkey=e0795e208f600110dfb109aa79cd7e14"/>
+</record_update>

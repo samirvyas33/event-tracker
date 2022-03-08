@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config/>
+        <description/>
+        <fields>table,sysId,referenceField,label,serializedChanges,encodedRecord,size</fields>
+        <icon/>
+        <name>DA Modal Ref Lookup</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Record">ac795e2078600110ee9c9af3aea65929</parent_macroponent>
+        <parent_macroponent_composition_element_id>modalContainerViewport</parent_macroponent_composition_element_id>
+        <route_type>modal_ref_lookup</route_type>
+        <screen_type display_value="DA Modal Ref Lookup">c8ddd091ff53101035be517f793bf13d</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:46</sys_created_on>
+        <sys_id>e4795e2002600110493cd24b4c86b530</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DA Modal Ref Lookup</sys_name>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>sys_ux_app_route_e4795e2002600110493cd24b4c86b530</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:46</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=e4795e2002600110493cd24b4c86b530"/>
+</record_update>

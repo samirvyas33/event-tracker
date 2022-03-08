@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme">
+    <sys_ux_theme action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Inventory Tracker Portal Theme</name>
+        <parent display_value="Default">a309795273230010fd843c78caf6a724</parent>
+        <sys_class_name>sys_ux_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a4795e20736001100c0a2fd43ca77c5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Inventory Tracker Portal Theme</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>sys_ux_theme_a4795e20736001100c0a2fd43ca77c5c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:06</sys_updated_on>
+        <theme>{  &#13;
+    "--now-font-family": "Roboto",&#13;
+    "--now-display-type--font-family": "Cabin",&#13;
+    "--now-display-type_label--font-family": "Roboto",&#13;
+    "--now-display-type_value--font-family": "Roboto",&#13;
+    &#13;
+    "--now-color--primary-0": "218,229,233",&#13;
+    "--now-color--primary-1": "11,83,110",&#13;
+    "--now-color--primary-2": "9,63,83",&#13;
+    "--now-color--primary-3": "6,42,55",&#13;
+    "--now-color--secondary-0": "218,229,233",&#13;
+    "--now-color--secondary-1": "11,83,110",&#13;
+    "--now-color--secondary-2": "9,63,83",&#13;
+    "--now-color--secondary-3": "6,42,55",&#13;
+	"--now-canvas-header-container--background-color": "41,62,64",&#13;
+    &#13;
+    "--now-button--primary--border-width": "0",&#13;
+    "--now-button--primary--color": "var(--now-color--neutral-18)",&#13;
+    "--now-button--primary--color--hover": "var(--now-color--neutral-18)",&#13;
+    "--now-button--primary--color--active": "var(--now-color--neutral-18)",&#13;
+    "--now-button--primary--background-color": "247,116,88",&#13;
+    "--now-button--primary--background-color--hover": "186,87,66",&#13;
+    "--now-button--primary--background-color--active": "124,58,44",&#13;
+    "--now-button--secondary--border-color": "247,116,88",&#13;
+    "--now-button--secondary--border-color--hover": "247,116,88",&#13;
+    "--now-button--secondary--border-color--active": "247,116,88",&#13;
+    "--now-button--secondary--color": "var(--now-color--neutral-18)",&#13;
+    "--now-button--secondary--color--hover": "var(--now-color--neutral-18)",&#13;
+    "--now-button--secondary--color--active": "var(--now-color--neutral-18)",&#13;
+    "--now-button--secondary--background-color": "var(--now-color--neutral-0)",&#13;
+    "--now-button--secondary--background-color--hover": "254,234,230",&#13;
+    "--now-button--secondary--background-color--active": "254,234,230",&#13;
+    "--now-button--background-color--disabled": "247,116,88",&#13;
+    "--now-button--tertiary--color": "var(--now-color--primary-1)",&#13;
+    "--now-color--inventory--background-color": "233,250,253",&#13;
+    "font-family": "Roboto",&#13;
+    "--now-heading--header-primary--font-family": "Cabin",&#13;
+    "--now-heading--header-secondary--font-family": "Cabin",&#13;
+    "--now-heading--header-tertiary--font-family": "Cabin",&#13;
+    "--now-card-header_heading--primary--font-family": "Cabin",&#13;
+    "--now-breadcrumbs--color--current": "var(--now-color--primary-1)",&#13;
+    "--now-breadcrumbs--color": "var(--now-color--primary-1)",&#13;
+    "--now-breadcrumbs--font-weight": "600",&#13;
+    "--now-heading--header-primary--font-weight": "bold",&#13;
+    "--now-heading--header-secondary--font-weight": "bold",&#13;
+    "--now-line-height-crop--before": "-0.2125em",&#13;
+	"--now-line-height-crop--after": "-0.275em",&#13;
+    "--now-line-height": "1.5",&#13;
+    "--now-color_text--secondary": "0,0,0"&#13;
+ }</theme>
+    </sys_ux_theme>
+</record_update>

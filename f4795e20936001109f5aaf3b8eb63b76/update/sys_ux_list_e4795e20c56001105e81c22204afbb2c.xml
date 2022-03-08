@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list">
+    <sys_ux_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Inventory requests">24795e2016600110e5c8f6ee0e4dad39</category>
+        <columns>number,requested_item.name,return_date,count,requestor,department,requested_item.in_stock</columns>
+        <condition table="x_686626_sv_inve_0_inventory_request">request_status=open_loaner^EQ<item display_value="Open Loaner" endquery="false" field="request_status" goto="false" newquery="false" operator="=" or="false" value="open_loaner"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <configuration display_value="Inventory Tracker Admin Workspace Menu">e0795e202d60011041483a0b6a84d639</configuration>
+        <group_by_column/>
+        <groups/>
+        <list_attributes/>
+        <order>110</order>
+        <roles/>
+        <sys_class_name>sys_ux_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e4795e20c56001105e81c22204afbb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>On loan</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>sys_ux_list_e4795e20c56001105e81c22204afbb2c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:11</sys_updated_on>
+        <table>x_686626_sv_inve_0_inventory_request</table>
+        <title>On loan</title>
+    </sys_ux_list>
+</record_update>

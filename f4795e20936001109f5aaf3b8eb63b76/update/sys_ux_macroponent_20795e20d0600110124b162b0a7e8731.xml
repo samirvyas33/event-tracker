@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "container_1",
+  "elementLabel" : "Container 1",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Row 1",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "search_combobox_component_1",
+      "elementLabel" : "Search Combobox Component 1",
+      "propertyValues" : {
+        "searchTerm" : {
+          "type" : "CONTEXT_BINDING",
+          "binding" : {
+            "address" : [ "searchTerm" ],
+            "category" : "props"
+          }
+        },
+        "searchContextConfigId" : {
+          "type" : "CONTEXT_BINDING",
+          "binding" : {
+            "address" : [ "searchContextConfigId" ],
+            "category" : "props"
+          }
+        },
+        "placeholder" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "message" : "Search",
+            "comment" : ""
+          }
+        },
+        "placement" : {
+          "type" : "JSON_LITERAL",
+          "value" : "body"
+        },
+        "disableAutocomplete" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "size" : {
+          "type" : "JSON_LITERAL",
+          "value" : "lg"
+        }
+      },
+      "eventMappings" : [ {
+        "eventMappingId" : "ckhaaffwadtaaaabblddhhhiisefeebbfiidd",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_search_combobox.SN_SEARCH_COMBOBOX#NAVIGATION_EXECUTED",
+        "sourceEventDefinition" : {
+          "apiName" : "sn_search_combobox.SN_SEARCH_COMBOBOX#NAVIGATION_EXECUTED",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : {
+            "sysId" : "2c795e20a46001103e37c0152b746333"
+          },
+          "declarativeAction" : null,
+          "event" : null,
+          "operation" : null,
+          "targetId" : "ckhaaffwaduaaaabbmddhhhiixzybhhtct",
+          "type" : "CLIENT_SCRIPT"
+        } ]
+      }, {
+        "eventMappingId" : "ckhaaffsurjjaaaabbfddhhhiiudaamqddli",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_search_combobox.SN_SEARCH_COMBOBOX#SEARCH_EXECUTED",
+        "sourceEventDefinition" : {
+          "apiName" : "sn_search_combobox.SN_SEARCH_COMBOBOX#SEARCH_EXECUTED",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : {
+            "sysId" : "64795e20ab600110a07b93b0393dae31"
+          },
+          "declarativeAction" : null,
+          "event" : null,
+          "operation" : null,
+          "targetId" : "ckhaaffsuraaaaabbgddhhhiiziiffwhjjrx",
+          "type" : "CLIENT_SCRIPT"
+        } ]
+      } ],
+      "slot" : "default-slot",
+      "definition" : {
+        "id" : "ce26d6793802478648556dc1f88fe020",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "width" : "46rem"
+      }
+    }, {
+      "elementId" : "breadcrumbs_1",
+      "elementLabel" : "Breadcrumbs 1",
+      "propertyValues" : {
+        "items" : {
+          "type" : "LIST_CONTAINER",
+          "container" : [ {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "label" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "message" : "Home",
+                  "comment" : ""
+                }
+              },
+              "href" : {
+                "type" : "JSON_LITERAL",
+                "value" : "/now/x_686626_sv_inve_0-inventory-tracker/portal/home"
+              }
+            }
+          }, {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "label" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "message" : "Search results",
+                  "comment" : ""
+                }
+              }
+            }
+          } ]
+        },
+        "delimiter" : {
+          "type" : "JSON_LITERAL",
+          "value" : "chevron"
+        },
+        "overflow" : {
+          "type" : "JSON_LITERAL",
+          "value" : "collapse"
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "default-slot",
+      "definition" : {
+        "id" : "9c2e48402c6c25d281faeb20637f6106",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "margin" : "2rem auto",
+        "width" : "90rem",
+        "padding-left" : "2rem"
+      }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"default-slot","rules":{"grid-area":"default-slot"},"styles":{"display":"flex","flex-direction":"column","margin-top":"1.5rem","justify-content":"flex-start","align-items":"center"}}],
+        "root" : null,
+        "rules" : {"grid-template-rows":"1fr","grid-template-columns":"1fr","grid-template-areas":"'default-slot'"},
+        "styles" : null,
+        "templateId" : null,
+        "type" : "grid"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%",
+    "background-color" : "rgb(var(--now-color--inventory--background-color))",
+    "max-width" : "1440px",
+    "margin-left" : "auto",
+    "margin-right" : "auto"
+  }
+}, {
+  "elementId" : "container_4",
+  "elementLabel" : "Wrapper",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Row 2",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "container_3",
+      "elementLabel" : "Container 3",
+      "propertyValues" : { },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ {
+          "elementId" : "search_facets_component_1",
+          "elementLabel" : "Search Facets Component 1",
+          "propertyValues" : {
+            "facets" : {
+              "type" : "DATA_OUTPUT_BINDING",
+              "binding" : {
+                "address" : [ "search_composite_data_broker_1", "searchMetadata", "searchFacets" ]
+              }
+            },
+            "label" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "Filters",
+                "comment" : ""
+              }
+            },
+            "size" : {
+              "type" : "JSON_LITERAL",
+              "value" : "lg"
+            },
+            "selectedOptions" : {
+              "type" : "DATA_OUTPUT_BINDING",
+              "binding" : {
+                "address" : [ "search_composite_data_broker_1", "searchMetadata", "appliedFacetFilters" ]
+              }
+            },
+            "searchContextConfigId" : {
+              "type" : "CONTEXT_BINDING",
+              "binding" : {
+                "address" : [ "searchContextConfigId" ],
+                "category" : "props"
+              }
+            },
+            "searchTerm" : {
+              "type" : "CONTEXT_BINDING",
+              "binding" : {
+                "address" : [ "searchTerm" ],
+                "category" : "props"
+              }
+            }
+          },
+          "eventMappings" : [ {
+            "eventMappingId" : "ckhaaffypdqaaaabbsddhhhiiccmggffibddff",
+            "isConfiguration" : false,
+            "offRowStorageId" : null,
+            "sourceEventApiName" : "sn_search_facets.SN_SEARCH_FACETS#SELECTIONS_UPDATED",
+            "sourceEventDefinition" : {
+              "apiName" : "sn_search_facets.SN_SEARCH_FACETS#SELECTIONS_UPDATED",
+              "id" : null,
+              "type" : "UXEVENT"
+            },
+            "sourceEventSysId" : null,
+            "targets" : [ {
+              "broker" : null,
+              "clientScript" : {
+                "sysId" : "ec795e20c36001105a6cfb95db1b8032"
+              },
+              "declarativeAction" : null,
+              "event" : null,
+              "operation" : null,
+              "targetId" : "ckhaaffypdqaaaabbtddhhhiiffajixpsj",
+              "type" : "CLIENT_SCRIPT"
+            } ]
+          } ],
+          "slot" : "Sidebar 1",
+          "definition" : {
+            "id" : "f87c8f9a2b17510491d16e97103e1362",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : {
+            "margin" : "2rem"
+          }
+        }, {
+          "elementId" : "search_results_container_1",
+          "elementLabel" : "Search Results Container 1",
+          "propertyValues" : {
+            "searchTerm" : {
+              "type" : "CONTEXT_BINDING",
+              "binding" : {
+                "address" : [ "searchTerm" ],
+                "category" : "props"
+              }
+            },
+            "correctedSearchTerm" : {
+              "type" : "DATA_OUTPUT_BINDING",
+              "binding" : {
+                "address" : [ "search_composite_data_broker_1", "searchMetadata", "spellCorrectedTerm" ]
+              }
+            },
+            "geniusResults" : {
+              "type" : "DATA_OUTPUT_BINDING",
+              "binding" : {
+                "address" : [ "search_composite_data_broker_1", "geniusResultsTemplates" ]
+              }
+            },
+            "searchResults" : {
+              "type" : "DATA_OUTPUT_BINDING",
+              "binding" : {
+                "address" : [ "search_composite_data_broker_1", "searchResultsTemplates" ]
+              }
+            },
+            "previousPageToken" : {
+              "type" : "DATA_OUTPUT_BINDING",
+              "binding" : {
+                "address" : [ "search_composite_data_broker_1", "searchMetadata", "previousPaginationToken" ]
+              }
+            },
+            "nextPageToken" : {
+              "type" : "DATA_OUTPUT_BINDING",
+              "binding" : {
+                "address" : [ "search_composite_data_broker_1", "searchMetadata", "nextPaginationToken" ]
+              }
+            },
+            "searchContextConfigId" : {
+              "type" : "CONTEXT_BINDING",
+              "binding" : {
+                "address" : [ "searchContextConfigId" ],
+                "category" : "props"
+              }
+            },
+            "isLoading" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "searchResultMetadata" : {
+              "type" : "JSON_LITERAL",
+              "value" : "{}"
+            },
+            "daClientActionContract" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            }
+          },
+          "eventMappings" : [ {
+            "eventMappingId" : "ckizsggyasaaaabbgddghhyzgfljjjwx",
+            "isConfiguration" : false,
+            "offRowStorageId" : null,
+            "sourceEventApiName" : "sn_search_results.SN_SEARCH_RESULTS_CONTAINER#DECLARATIVE_ACTION",
+            "sourceEventDefinition" : {
+              "apiName" : "sn_search_results.SN_SEARCH_RESULTS_CONTAINER#DECLARATIVE_ACTION",
+              "id" : null,
+              "type" : "UXEVENT"
+            },
+            "sourceEventSysId" : null,
+            "targets" : [ {
+              "broker" : null,
+              "clientScript" : {
+                "sysId" : "2c795e20a46001103e37c0152b746333"
+              },
+              "declarativeAction" : null,
+              "event" : null,
+              "operation" : null,
+              "targetId" : "ckizsggyasaaaabbhddghhynzaaeeiuraa",
+              "type" : "CLIENT_SCRIPT"
+            } ]
+          }, {
+            "eventMappingId" : "ckhaaffzpkoaaaabbvddhhhiixaaxxnjbe",
+            "isConfiguration" : false,
+            "offRowStorageId" : null,
+            "sourceEventApiName" : "sn_search_results.SN_SEARCH_RESULTS_CONTAINER#PAGINATION_BUTTON_CLICKED",
+            "sourceEventDefinition" : {
+              "apiName" : "sn_search_results.SN_SEARCH_RESULTS_CONTAINER#PAGINATION_BUTTON_CLICKED",
+              "id" : null,
+              "type" : "UXEVENT"
+            },
+            "sourceEventSysId" : null,
+            "targets" : [ {
+              "broker" : null,
+              "clientScript" : {
+                "sysId" : "ec795e20ea6001107a7bf35e98546a30"
+              },
+              "declarativeAction" : null,
+              "event" : null,
+              "operation" : null,
+              "targetId" : "ckhaaffzpkoaaaabbwddhhhiichfvccxeez",
+              "type" : "CLIENT_SCRIPT"
+            } ]
+          }, {
+            "eventMappingId" : "ckhaaffxbdlaaaabboddhhhiifgiimehhffz",
+            "isConfiguration" : false,
+            "offRowStorageId" : null,
+            "sourceEventApiName" : "sn_search_results.SN_SEARCH_RESULTS_CONTAINER#CARD_CLICKED",
+            "sourceEventDefinition" : {
+              "apiName" : "sn_search_results.SN_SEARCH_RESULTS_CONTAINER#CARD_CLICKED",
+              "id" : null,
+              "type" : "UXEVENT"
+            },
+            "sourceEventSysId" : null,
+            "targets" : [ {
+              "broker" : null,
+              "clientScript" : {
+                "sysId" : "2c795e20a46001103e37c0152b746333"
+              },
+              "declarativeAction" : null,
+              "event" : null,
+              "operation" : null,
+              "targetId" : "ckhaaffxbdlaaaabbpddhhhiiouneeddhhsh",
+              "type" : "CLIENT_SCRIPT"
+            } ]
+          }, {
+            "eventMappingId" : "ckhaaffuvffaaaaabbiddhhhiiyfyqccsaaj",
+            "isConfiguration" : false,
+            "offRowStorageId" : null,
+            "sourceEventApiName" : "sn_search_results.SN_SEARCH_RESULTS_CONTAINER#SEARCH_EXECUTED",
+            "sourceEventDefinition" : {
+              "apiName" : "sn_search_results.SN_SEARCH_RESULTS_CONTAINER#SEARCH_EXECUTED",
+              "id" : null,
+              "type" : "UXEVENT"
+            },
+            "sourceEventSysId" : null,
+            "targets" : [ {
+              "broker" : null,
+              "clientScript" : {
+                "sysId" : "64795e20ab600110a07b93b0393dae31"
+              },
+              "declarativeAction" : null,
+              "event" : null,
+              "operation" : null,
+              "targetId" : "ckhaaffuvffaaaaabbjddhhhiieegnqciist",
+              "type" : "CLIENT_SCRIPT"
+            } ]
+          } ],
+          "slot" : "Main",
+          "definition" : {
+            "id" : "78580cbc090d816f232d10e954f6dc74",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : {
+            "margin" : "2rem"
+          }
+        } ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "items" : [{"slotName":"Sidebar 1","rules":{"grid-area":"sidebar1"},"styles":{"display":"grid","background-color":"rgb(var(--now-color--neutral-1))","height":"100%"}},{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"grid","background-color":"white","height":"100%"}}],
+            "root" : null,
+            "rules" : {"grid-template-rows":"1fr","grid-template-columns":"4fr 8fr","grid-template-areas":"\"sidebar1 main\"","grid-gap":"0","height":"100%","max-width":"90rem","margin":"0 auto"},
+            "styles" : null,
+            "templateId" : "7579b58153071010e6bcddeeff7b1290",
+            "type" : "grid"
+          }
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "width" : "100%",
+        "max-width" : "1440px",
+        "margin-left" : "auto",
+        "margin-right" : "auto"
+      }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"grid","height":"100%"}}],
+        "root" : null,
+        "rules" : {"grid-template-rows":"1fr","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"0","height":"100%"},
+        "styles" : null,
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "grid"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "background" : "linear-gradient(90deg, rgb(var(--now-color--neutral-1)) 37%, white 37%)",
+    "height" : "100%"
+  }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ {
+  "definition" : {
+    "id" : "0cac8b3073ad101052c7d5fdbdf6a78a",
+    "type" : "COMPOSITE"
+  },
+  "elementId" : "search_composite_data_broker_1",
+  "elementLabel" : "Search Composite Data Broker 1",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "searchEvamConfigId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "searchEvamDefinitionId" ],
+        "category" : "app"
+      }
+    },
+    "searchContextConfigId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "searchContextConfigId" ],
+        "category" : "props"
+      }
+    },
+    "searchTerm" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "searchTerm" ],
+        "category" : "props"
+      }
+    },
+    "facetFilters" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "facetFilters" ],
+        "category" : "props"
+      }
+    },
+    "searchFilters" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "searchFilters" ],
+        "category" : "props"
+      }
+    },
+    "disableSpellCheck" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "disableSpellCheck" ],
+        "category" : "props"
+      }
+    },
+    "paginationToken" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "paginationToken" ],
+        "category" : "props"
+      }
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+} ]</data>
+        <dispatched_events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "items" : [{"slotName":"Row 1","rules":{"grid-area":"row1"},"styles":{"display":"flex","flex-direction":"column","background-color":"rgb(var(--now-color--inventory--background-color))"}},{"slotName":"Row 2","rules":{"grid-area":"row2"},"styles":{"display":"flex","flex-direction":"column"}}],
+    "root" : null,
+    "rules" : {"grid-template-rows":"auto 1fr","grid-template-columns":"100%","grid-template-areas":"\"row1\" \"row2\"","grid-gap":"0","height":"100%"},
+    "styles" : null,
+    "templateId" : "1afa9dc153c31010e6bcddeeff7b1280",
+    "type" : "grid"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>search</name>
+        <props>[ {
+  "name" : "facetFilters",
+  "label" : "facetFilters",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : null,
+  "readOnly" : true,
+  "selectable" : false
+}, {
+  "name" : "searchFilters",
+  "label" : "searchFilters",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : null,
+  "readOnly" : true,
+  "selectable" : false
+}, {
+  "name" : "disableSpellCheck",
+  "label" : "disableSpellCheck",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : null,
+  "readOnly" : true,
+  "selectable" : false
+}, {
+  "name" : "paginationToken",
+  "label" : "paginationToken",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : null,
+  "readOnly" : true,
+  "selectable" : false
+}, {
+  "name" : "searchContextConfigId",
+  "label" : "searchContextConfigId",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : "",
+  "readOnly" : true,
+  "selectable" : false
+}, {
+  "name" : "searchTerm",
+  "label" : "searchTerm",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : "",
+  "readOnly" : true,
+  "selectable" : false
+} ]</props>
+        <required_translations>[{"message":"Filters","comment":""},{"message":"Search","comment":""},{"message":"Search results","comment":""},{"message":"Home","comment":""}]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ {
+  "name" : "isLoading",
+  "label" : "isLoading",
+  "fieldType" : "boolean",
+  "valueType" : "boolean",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+} ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:03</sys_created_on>
+        <sys_id>20795e20d0600110124b162b0a7e8731</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>search</sys_name>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>sys_ux_macroponent_20795e20d0600110124b162b0a7e8731</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:03</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

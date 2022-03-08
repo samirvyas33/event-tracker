@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_dictionary">
+    <ais_dictionary action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <auto_refresh>24</auto_refresh>
+        <blocked_field/>
+        <case_sensitive>false</case_sensitive>
+        <data_source>x_686626_sv_inve_0_inventory_control</data_source>
+        <derived>true</derived>
+        <field/>
+        <label>Inventory Search 2 Default Spell Check Dictionary</label>
+        <last_derived>2021-05-25 01:18:23</last_derived>
+        <locale>en</locale>
+        <name>x_686626_sv_inve_0_inventory_search_2_de</name>
+        <publish_id>43cac7bb-92e0-490a-bfe9-94a342759cb6</publish_id>
+        <punctuation_sensitive>false</punctuation_sensitive>
+        <state>PUBLISHED</state>
+        <sys_class_name>ais_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:03</sys_created_on>
+        <sys_id>28791e20446001107718dcfd2335c7dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_686626_sv_inve_0_inventory_search_2_de</sys_name>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>ais_dictionary_28791e20446001107718dcfd2335c7dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:03</sys_updated_on>
+        <type>SPELLCHECK</type>
+    </ais_dictionary>
+</record_update>

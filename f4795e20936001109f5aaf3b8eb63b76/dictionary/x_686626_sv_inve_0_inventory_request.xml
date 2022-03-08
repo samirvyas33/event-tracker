@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Inventory request" max_length="40" name="x_686626_sv_inve_0_inventory_request" sizeclass="0" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="40" name="comments" type="journal_input"/>
+        <element default="1" label="Count" mandatory="true" max_length="40" name="count" type="integer"/>
+        <element attributes="encode_utf8=false" label="Department" mandatory="true" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" mandatory="true" max_length="40" name="number" read_only="true" type="string" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="On loan item" max_length="40" name="on_loan_item" type="string"/>
+        <element attributes="encode_utf8=false" label="Item" mandatory="true" max_length="32" name="requested_item" reference="x_686626_sv_inve_0_inventory_control" type="reference"/>
+        <element attributes="encode_utf8=false" label="Requestor" mandatory="true" max_length="32" name="requestor" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Date required" mandatory="true" max_length="40" name="request_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="submitted" label="Status" mandatory="true" max_length="40" name="request_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Submitted" sequence="1" value="submitted"/>
+                <element inactive_on_update="false" label="Denied" sequence="2" value="denied"/>
+                <element inactive_on_update="false" label="Approved" sequence="3" value="approved"/>
+                <element inactive_on_update="false" label="Pending Re-order" sequence="4" value="pending_re_order"/>
+                <element inactive_on_update="false" label="Open Loaner" sequence="5" value="open_loaner"/>
+                <element inactive_on_update="false" label="Complete" sequence="6" value="complete"/>
+                <element inactive_on_update="false" label="Canceled" sequence="7" value="canceled"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Return date" max_length="40" name="return_date" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Stock location" mandatory="true" max_length="32" name="stock_location" reference="x_686626_sv_inve_0_stock_location" type="reference"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Work notes" max_length="40" name="work_notes" type="journal_input"/>
+        <index name="index">
+            <element name="stock_location"/>
+        </index>
+        <index name="index2">
+            <element name="department"/>
+        </index>
+        <index name="index3">
+            <element name="requestor"/>
+        </index>
+        <index name="index4">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index5">
+            <element name="requested_item"/>
+        </index>
+    </element>
+</database>

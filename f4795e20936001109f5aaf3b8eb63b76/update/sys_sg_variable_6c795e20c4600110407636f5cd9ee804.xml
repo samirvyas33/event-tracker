@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_variable">
+    <sys_sg_variable action="INSERT_OR_UPDATE">
+        <name>item_type</name>
+        <parameter_screen display_value="Request item">a8795e2015600110d99714d0f5595004</parameter_screen>
+        <parameter_section/>
+        <sys_class_name>sys_sg_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:03</sys_created_on>
+        <sys_id>6c795e20c4600110407636f5cd9ee804</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>item_type</sys_name>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>sys_sg_variable_6c795e20c4600110407636f5cd9ee804</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:03</sys_updated_on>
+        <type>db_field</type>
+    </sys_sg_variable>
+</record_update>

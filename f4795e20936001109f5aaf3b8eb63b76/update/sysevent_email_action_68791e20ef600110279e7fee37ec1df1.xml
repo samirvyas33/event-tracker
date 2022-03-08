@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="x_686626_sv_inve_0 - Inventory T" name="x_686626_sv_inve_0 - Inventory T">e0791e202b600110d9a88425aacf49e7</category>
+        <collection>x_686626_sv_inve_0_inventory_request</collection>
+        <condition table="x_686626_sv_inve_0_inventory_request">request_status=submitted^EQ<item display_value="Submitted" endquery="false" field="request_status" goto="false" newquery="false" operator="=" or="false" value="submitted"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html><![CDATA[<p style="text-align: center;"><span style="font-size: 12px;">${mail_script:x_686626_sv_inve_0.invtrac_user_avtar} ${requestor.name} requested an item ${mail_script:x_686626_sv_inve_0.invtrac_requestlink_m}</span></p>]]></digest_html>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p><br /></p>
+<hr />
+<p><br /></p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject> New requests</digest_subject>
+        <digest_template display_value="Inventory Tracker Digest - Notifications">a0791e20ff60011029f98588fed714e5</digest_template>
+        <digest_text/>
+        <digestable>true</digestable>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>triggered</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p style="text-align: center;"><span style="font-size: 10pt;">${mail_script:x_686626_sv_inve_0.invtrac_updated_img}</span></p>
+<p style="text-align: center;"><span style="font-size: 14pt;"><strong>You have a new item loan request</strong></span></p>
+<p style="text-align: center;"><span style="font-size: 10pt;"><strong>Item requested</strong></span></p>
+<p style="text-align: center;"><span style="font-size: 10pt;">${requested_item.name}</span><br /></p>
+<p style="text-align: center;"><span style="font-size: 10pt;"><strong>Stock location</strong></span></p>
+<p style="text-align: center;"><span style="font-size: 10pt;">${requested_item.stock_location.name}</span><br /></p>
+<p style="text-align: center;"><span style="font-size: 10pt;"><strong>Date(s) requested</strong></span></p>
+<p style="text-align: center;"><span style="font-size: 10pt;">${mail_script:x_686626_sv_inve_0.invtrac_display_dates}</span></p>
+<p><br /></p>
+<p style="text-align: center;"><span style="font-size: 10pt;"><strong>${mail_script:x_686626_sv_inve_0.invtrac_review_rmgr}</strong></span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Request Submitted - Manager</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>requested_item.stock_location.inventory_manager</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>New item request for : ${requested_item.name}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>68791e20ef600110279e7fee37ec1df1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Submitted - Manager</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>sysevent_email_action_68791e20ef600110279e7fee37ec1df1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:18</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Inventory Tracker - Notifications">6c791e2076600110f61fb720e8c0a3e5</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

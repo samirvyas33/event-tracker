@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>Request item</name>
+        <parameter_screen display_value="Request item">a8795e2015600110d99714d0f5595004</parameter_screen>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:07</sys_created_on>
+        <sys_id>e0795e2096600110a8b9a0bbcf858000</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request item</sys_name>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_e0795e2096600110a8b9a0bbcf858000</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:07</sys_updated_on>
+        <table>x_686626_sv_inve_0_inventory_request</table>
+        <template>stock_location={{Input: stock_location}}^requested_item={{Input: name}}^request_date={{Input: request_date}}^return_date={{Input: return_date}}^count={{Input: count}}^comments={{Input: comments}}^EQ</template>
+        <type>new</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=e0795e2096600110a8b9a0bbcf858000"/>
+</record_update>

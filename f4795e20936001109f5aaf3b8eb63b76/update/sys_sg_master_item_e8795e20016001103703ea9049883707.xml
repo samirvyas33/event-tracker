@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition_order/>
+        <datasource_table>x_686626_sv_inve_0_inventory_request</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="Request item Form">64795e20d0600110aa66120080f3cb02</embedded_screen>
+        <item_view/>
+        <name>Request item Main Item</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:37</sys_created_on>
+        <sys_id>e8795e20016001103703ea9049883707</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request item Main Item</sys_name>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>sys_sg_master_item_e8795e20016001103703ea9049883707</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:37</sys_updated_on>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="Request item View Config">e8795e2074600110e0037c554c901309</view_config>
+    </sys_sg_master_item>
+</record_update>

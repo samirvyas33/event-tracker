@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Inventory information" section_id="68795e203b600110fdd14663e0c35019" sys_domain="global" table="x_686626_sv_inve_0_inventory_control" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>item_cost</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-17 16:42:12</sys_created_on>
+            <sys_id>28795e20ed6001106c2a3c27cd2c2924</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory information" display_value="Inventory information" name="x_686626_sv_inve_0_inventory_control" sys_domain="global" view="169009876d2620100acb70b35343302a">68795e203b600110fdd14663e0c35019</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-17 16:42:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-17 16:42:12</sys_created_on>
+            <sys_id>68795e201d6001106a498df3f4866f24</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory information" display_value="Inventory information" name="x_686626_sv_inve_0_inventory_control" sys_domain="global" view="169009876d2620100acb70b35343302a">68795e203b600110fdd14663e0c35019</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-17 16:42:12</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>value</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-17 16:42:12</sys_created_on>
+            <sys_id>a8795e20946001107318dda219768d24</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory information" display_value="Inventory information" name="x_686626_sv_inve_0_inventory_control" sys_domain="global" view="169009876d2620100acb70b35343302a">68795e203b600110fdd14663e0c35019</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-17 16:42:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-17 16:42:12</sys_created_on>
+            <sys_id>e8795e20ba600110c178bf32a7831124</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory information" display_value="Inventory information" name="x_686626_sv_inve_0_inventory_control" sys_domain="global" view="169009876d2620100acb70b35343302a">68795e203b600110fdd14663e0c35019</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-17 16:42:12</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-17 16:42:12</sys_created_on>
+            <sys_id>2c795e2053600110d3a8d3cafa05a824</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory information" display_value="Inventory information" name="x_686626_sv_inve_0_inventory_control" sys_domain="global" view="169009876d2620100acb70b35343302a">68795e203b600110fdd14663e0c35019</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-17 16:42:12</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>in_stock</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-17 16:42:12</sys_created_on>
+            <sys_id>6c795e2024600110448151e8fbbfeb24</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory information" display_value="Inventory information" name="x_686626_sv_inve_0_inventory_control" sys_domain="global" view="169009876d2620100acb70b35343302a">68795e203b600110fdd14663e0c35019</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-17 16:42:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-17 16:42:12</sys_created_on>
+            <sys_id>ec795e200f600110687273a34b90d324</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory information" display_value="Inventory information" name="x_686626_sv_inve_0_inventory_control" sys_domain="global" view="169009876d2620100acb70b35343302a">68795e203b600110fdd14663e0c35019</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-17 16:42:12</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>stock_location</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-17 16:42:12</sys_created_on>
+            <sys_id>20795e20d1600110b6df6d4645034e25</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory information" display_value="Inventory information" name="x_686626_sv_inve_0_inventory_control" sys_domain="global" view="169009876d2620100acb70b35343302a">68795e203b600110fdd14663e0c35019</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-17 16:42:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-17 16:42:12</sys_created_on>
+            <sys_id>60795e2013600110b8042ba001e06025</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory information" display_value="Inventory information" name="x_686626_sv_inve_0_inventory_control" sys_domain="global" view="169009876d2620100acb70b35343302a">68795e203b600110fdd14663e0c35019</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-17 16:42:12</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-17 16:42:12</sys_created_on>
+            <sys_id>a0795e20956001105e260b4e3dac5825</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory information" display_value="Inventory information" name="x_686626_sv_inve_0_inventory_control" sys_domain="global" view="169009876d2620100acb70b35343302a">68795e203b600110fdd14663e0c35019</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-17 16:42:12</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reorder_level</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-17 16:42:12</sys_created_on>
+            <sys_id>e0795e20fa600110d3b28181b5039d25</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory information" display_value="Inventory information" name="x_686626_sv_inve_0_inventory_control" sys_domain="global" view="169009876d2620100acb70b35343302a">68795e203b600110fdd14663e0c35019</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-17 16:42:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-17 16:42:12</sys_created_on>
+            <sys_id>24795e2016600110999051fd14759825</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory information" display_value="Inventory information" name="x_686626_sv_inve_0_inventory_control" sys_domain="global" view="169009876d2620100acb70b35343302a">68795e203b600110fdd14663e0c35019</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-17 16:42:12</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inventory_status</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-17 16:42:12</sys_created_on>
+            <sys_id>64795e20126001105cb7931c7dfb2b25</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory information" display_value="Inventory information" name="x_686626_sv_inve_0_inventory_control" sys_domain="global" view="169009876d2620100acb70b35343302a">68795e203b600110fdd14663e0c35019</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-17 16:42:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-17 16:42:12</sys_created_on>
+            <sys_id>a4795e2061600110fc186fb57a438825</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory information" display_value="Inventory information" name="x_686626_sv_inve_0_inventory_control" sys_domain="global" view="169009876d2620100acb70b35343302a">68795e203b600110fdd14663e0c35019</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-17 16:42:12</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-17 16:42:12</sys_created_on>
+            <sys_id>e4795e207e600110b82252bbbbcfec25</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory information" display_value="Inventory information" name="x_686626_sv_inve_0_inventory_control" sys_domain="global" view="169009876d2620100acb70b35343302a">68795e203b600110fdd14663e0c35019</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-17 16:42:12</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reorder_status</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-17 16:42:12</sys_created_on>
+            <sys_id>28795e2081600110f00038144e3d1625</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory information" display_value="Inventory information" name="x_686626_sv_inve_0_inventory_control" sys_domain="global" view="169009876d2620100acb70b35343302a">68795e203b600110fdd14663e0c35019</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-17 16:42:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>loan_duration</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-17 16:42:12</sys_created_on>
+            <sys_id>a8795e20c860011042dee2469a712325</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory information" display_value="Inventory information" name="x_686626_sv_inve_0_inventory_control" sys_domain="global" view="169009876d2620100acb70b35343302a">68795e203b600110fdd14663e0c35019</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-17 16:42:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-17 16:42:12</sys_created_on>
+            <sys_id>e8795e20d46001106b167e48f60c6025</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory information" display_value="Inventory information" name="x_686626_sv_inve_0_inventory_control" sys_domain="global" view="169009876d2620100acb70b35343302a">68795e203b600110fdd14663e0c35019</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-17 16:42:12</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>on_loan</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-17 16:42:12</sys_created_on>
+            <sys_id>2c795e202760011061678a69638e4525</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory information" display_value="Inventory information" name="x_686626_sv_inve_0_inventory_control" sys_domain="global" view="169009876d2620100acb70b35343302a">68795e203b600110fdd14663e0c35019</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-17 16:42:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-17 16:42:12</sys_created_on>
+            <sys_id>6c795e20f1600110e28bf1efdfcdad25</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Inventory information" display_value="Inventory information" name="x_686626_sv_inve_0_inventory_control" sys_domain="global" view="169009876d2620100acb70b35343302a">68795e203b600110fdd14663e0c35019</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-17 16:42:12</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Inventory information</caption>
+            <header>false</header>
+            <name>x_686626_sv_inve_0_inventory_control</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-17 16:42:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>68795e203b600110fdd14663e0c35019</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_686626_sv_inve_0_inventory_control</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+            <sys_update_name>sys_ui_section_68795e203b600110fdd14663e0c35019</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-17 16:42:12</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">169009876d2620100acb70b35343302a</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

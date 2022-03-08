@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_686626_sv_inve_0.popular items details</api_name>
+        <description>To display popular items</description>
+        <mutates_server_data>false</mutates_server_data>
+        <name>popular items details</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+{&#13;
+"name":"graphqlData",&#13;
+"label":"Return object of popular items",&#13;
+"description":"",&#13;
+"readOnly":false,&#13;
+"fieldType":"object",&#13;
+"mandatory":true,&#13;
+"defaultValue":""&#13;
+}&#13;
+]</props>
+        <required_translations>[ {
+  "message" : "Return object of popular items",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+    var response = {
+        "page_cursor": "",
+        "page_size": 3,
+        "page_number": 0,
+        "is_last_page": true,
+        "all_actions": [{
+            "assignmentId": "d46f400473211010c342d5fdbdf6a7cf",
+            "name": "navigation",
+            "label": "Navigation",
+            "actionType": "uxf_client_action",
+            "actionDispatch": "NAVIGATION",
+            "actionPayload": "{\r\n        \"table\": \"{{table}}\",\r\n        \"sysId\": \"{{sys_id}}\",\r\n        \"url\": \"{{navigation_url}}\"\r\n}"
+        }],
+        "selected_filter": "",
+        "items": [],
+        "available_filters": [{
+            "sys_id": "",
+            "label": "Default"
+        }]
+    };
+
+    function cloneObj(obj) {
+        var clone = {};
+        for (var key in obj) {
+            if (typeof(obj[key]) == "object" && obj[key] != null)
+                clone[key] = cloneObj(obj[key]);
+            else
+                clone[key] = obj[key];
+        }
+        return clone;
+    }
+    var item_template = {
+        "template": "now-card-evam-record",
+        "propValues": {
+			"highlightedHeaderIcon":"presence-fill",
+            "titleLabel": "",
+            "imageURL": "",
+            "detailValueOne": "",
+            "detailValueTwo": "",
+			"highlightedHeaderBkgColor": "low",
+            "imageType": "image",
+            "detailLabelOne": gs.getMessage("Available"),
+            "detailLabelTwo": gs.getMessage("Location"),
+            "clickAction": {
+                "assignmentId": "d46f400473211010c342d5fdbdf6a7cf",
+                "name": "navigation",
+                "label": "Navigation",
+                "actionType": "uxf_client_action",
+                "icon": "",
+                "buttonType": "primary",
+                "actionDispatch": "NAVIGATION",
+                "serverScript": "",
+                "confirmationRequired": false,
+                "confirmationMessage": "",
+                "actionPayload": {
+                    "table": "x_686626_sv_inve_0_inventory_control",
+                    "sysId": "",
+                    "url": ""
+                }
+            },
+            "model": {
+                "name": "",
+                "image": "",
+                "in_stock": "",
+                "stock_location.name": "",
+                "sysId": "",
+                "sys_id": "",
+                "table": "x_686626_sv_inve_0_inventory_control"
+            }
+        }
+    };
+
+    var item_count = input.graphqlData.data.GlideAggregateRecord_Query.aggregates.length;
+
+    for (var i = 0; i < item_count && i < 3; i++) {
+
+        response.items.push(cloneObj(item_template));
+
+        var result = input.graphqlData.data.GlideAggregateRecord_Query.aggregates[i].groupBy[0]._query.GlideRecord_Query.x_686626_sv_inve_0_inventory_control._results[0];
+        var item_sysid = input.graphqlData.data.GlideAggregateRecord_Query.aggregates[i].groupBy[0].value;
+        var item_props = response.items[i].propValues;
+
+        item_props.clickAction.actionPayload["sysId"] = item_sysid;
+        item_props.model["sysId"] = item_sysid;
+        item_props.model["sys_id"] = item_sysid;
+        item_props["titleLabel"] = result.name.displayValue;
+        item_props.model["name"] = result.name.displayValue;
+		item_props["highlightedHeaderLabel"] = result.type.displayValue;
+		item_props["type"] = result.type.displayValue;
+        item_props["imageURL"] = result.image.displayValue;		
+        item_props.model["image"] = result.image.displayValue;
+        item_props["detailValueOne"] = result.in_stock.displayValue;
+        item_props.model["in_stock"] = result.in_stock.displayValue;
+        item_props["detailValueTwo"] = result.stock_location.displayValue;
+        item_props.model["stock_location.name"] = result.stock_location.displayValue;
+
+    }
+    return response;
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-17 16:42:48</sys_created_on>
+        <sys_id>64791e201b6001105e1e8515ec4bcbdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>popular items details</sys_name>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_64791e201b6001105e1e8515ec4bcbdd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-17 16:42:48</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=64791e201b6001105e1e8515ec4bcbdd"/>
+</record_update>

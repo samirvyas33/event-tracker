@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices>null</choices>
+        <description>null</description>
+        <name>global_search_configurations</name>
+        <page display_value="Inventory Tracker workspace App Config">a8795e20df600110247ba59ea938293a</page>
+        <required_translations>[ ]</required_translations>
+        <route/>
+        <suffix>null</suffix>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-21 08:48:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>2c795e2062600110356f3a00a7d4ed3a</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>global_search_configurations</sys_name>
+        <sys_package display_value="SV Inventory Tracker" source="x_686626_sv_inve_0">f4795e20936001109f5aaf3b8eb63b76</sys_package>
+        <sys_policy>null</sys_policy>
+        <sys_scope display_value="SV Inventory Tracker">f4795e20936001109f5aaf3b8eb63b76</sys_scope>
+        <sys_update_name>sys_ux_page_property_2c795e2062600110356f3a00a7d4ed3a</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-06-21 09:09:28</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_686626_sv_inve_0.0184eb0224f728108d2d0c9894104b36.root.global_search_configurations</unique_name>
+        <value>{"globalSearchViewConfigId":"a0791e20596001102f5748f91ba517dd","globalSearchRoute":"search"}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=2c795e2062600110356f3a00a7d4ed3a"/>
+</record_update>
